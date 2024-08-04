@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Comentarios</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h1>Consulta de Comentarios</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Buscar Comentarios por ID</h2>
+            <form id="consultaForm">
+                <label for="commentId">ID del Comentario:</label>
+                <input type="number" id="commentId" name="commentId" required>
+                <button type="submit">Buscar</button>
+            </form>
+        </section>
+        <section id="resultados">
+            <h2>Resultados</h2>
+            <div id="commentDetails"></div>
+        </section>
+    </main>
+    <script src="./home.js"></script>
+</body>
+</html>

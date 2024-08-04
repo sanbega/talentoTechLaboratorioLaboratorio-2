@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #15056e;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    margin: 2rem;
+}
+
+form {
+    background-color: white;
+    padding: 1rem;
+    border: 5px solid #15056e;
+    border-radius: 5px;
+    max-width: 400px;
+    margin-bottom: 2rem;
+}
+
+form label, form input {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+form button {
+    background-color: #15056e;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+#resultados {
+    margin-top: 1rem;
+    
+}
+
+#commentDetails {
+    background-color: white;
+    padding: 1rem;
+    border: 5px solid #15056e;
+    border-radius: 5px;
+}
+
+.comment {
+    margin-bottom: 1rem;
+}
